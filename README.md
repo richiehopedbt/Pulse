@@ -11,3 +11,7 @@ A pulsing view
 To add it to your project simply copy the pulse.swift file to your project, create a view in interface builder and then change the class to a Pulse class in the Identity Inspector.
 
 Included in this repository is an example app that shows the two variants of the pulse.
+
+to animate the pulse simply:
+
+`viewToPulse.startPulse(with: .red, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)`
