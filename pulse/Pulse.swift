@@ -82,7 +82,7 @@ class PulseView: UIView {
     
 }
 
-extension UIView {
+extension PulseView {
 
     @IBInspectable
 

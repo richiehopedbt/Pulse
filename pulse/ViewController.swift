@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
 
         box.startPulse(with: .red, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)
-        box2.startPulse(with: .blue, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)
+        box2.startPulse(with: .blue, scaleFrom: 1.0, to: 1.5, frequency: 0.5, opacity: 0.1, animation: .regularPulsing)
 
 
     }
