@@ -9,17 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var box: PulseView!
+    @IBOutlet weak var box2: PulseView!
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        box.startPulse(with: .red, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)
+        box2.startPulse(with: .blue, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)
 
+
+    }
 
 }
+
 

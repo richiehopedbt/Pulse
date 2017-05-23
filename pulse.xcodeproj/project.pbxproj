@@ -12,6 +12,7 @@
 		BE30803C1ED42603001360BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE30803A1ED42603001360BD /* Main.storyboard */; };
 		BE30803E1ED42603001360BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE30803D1ED42603001360BD /* Assets.xcassets */; };
 		BE3080411ED42603001360BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE30803F1ED42603001360BD /* LaunchScreen.storyboard */; };
+		BE30804D1ED428FB001360BD /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE30804C1ED428FB001360BD /* Pulse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BE30803D1ED42603001360BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE3080401ED42603001360BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE3080421ED42603001360BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE30804C1ED428FB001360BD /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BE3080361ED42603001360BD /* AppDelegate.swift */,
 				BE3080381ED42603001360BD /* ViewController.swift */,
+				BE30804C1ED428FB001360BD /* Pulse.swift */,
 				BE30803A1ED42603001360BD /* Main.storyboard */,
 				BE30803D1ED42603001360BD /* Assets.xcassets */,
 				BE30803F1ED42603001360BD /* LaunchScreen.storyboard */,
@@ -97,6 +100,7 @@
 					BE3080321ED42603001360BD = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = XYK77XC4T9;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE30804D1ED428FB001360BD /* Pulse.swift in Sources */,
 				BE3080391ED42603001360BD /* ViewController.swift in Sources */,
 				BE3080371ED42603001360BD /* AppDelegate.swift in Sources */,
 			);
@@ -261,11 +266,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XYK77XC4T9;
 				INFOPLIST_FILE = pulse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DigitalHopeLtd.pulse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +283,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XYK77XC4T9;
 				INFOPLIST_FILE = pulse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DigitalHopeLtd.pulse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
