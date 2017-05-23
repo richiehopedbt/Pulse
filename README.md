@@ -15,3 +15,5 @@ Included in this repository is an example app that shows the two variants of the
 to animate the pulse simply:
 
 `viewToPulse.startPulse(with: .red, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)`
+
+![Chat Preview](https://github.com/richiehopedbt/Pulse/beta/pulse.gif) 
