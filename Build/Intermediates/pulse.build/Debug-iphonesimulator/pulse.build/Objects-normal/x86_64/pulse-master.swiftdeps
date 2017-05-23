@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7cdd15d7a00c8e590809f82aca0c1824"
+build_time: [548853139, 61686000]
+inputs:
+  "/Users/richardhope/Documents/pulse/pulse/Pulse.swift": [548853138, 0]
+  "/Users/richardhope/Documents/pulse/pulse/ViewController.swift": [548845054, 0]
+  "/Users/richardhope/Documents/pulse/pulse/AppDelegate.swift": [548842243, 0]

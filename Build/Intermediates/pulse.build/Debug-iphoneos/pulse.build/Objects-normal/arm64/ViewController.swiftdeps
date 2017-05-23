@@ -1,0 +1,220 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C5pulse14ViewController"
+provides-member:
+- ["C5pulse14ViewController", ""]
+provides-dynamic-lookup:
+- "box"
+- "box2"
+- "viewDidLoad"
+depends-top-level:
+- "PulseView"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["Ps9AnyObject", "blue"]
+- !private ["Ps9AnyObject", "box"]
+- !private ["Ps9AnyObject", "box2"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "red"]
+- !private ["Ps9AnyObject", "startPulse"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "startPulse"]
+- !private ["Ps7CVarArg", "blue"]
+- !private ["Ps7CVarArg", "box"]
+- !private ["Ps7CVarArg", "box2"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "red"]
+- !private ["Ps7CVarArg", "startPulse"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "blue"]
+- !private ["Ps28CustomDebugStringConvertible", "box"]
+- !private ["Ps28CustomDebugStringConvertible", "box2"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "red"]
+- !private ["Ps28CustomDebugStringConvertible", "startPulse"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "blue"]
+- !private ["Ps23CustomStringConvertible", "box"]
+- !private ["Ps23CustomStringConvertible", "box2"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "red"]
+- !private ["Ps23CustomStringConvertible", "startPulse"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "blue"]
+- !private ["Ps9Equatable", "box"]
+- !private ["Ps9Equatable", "box2"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "radarPulsing"]
+- !private ["Ps9Equatable", "red"]
+- !private ["Ps9Equatable", "regularPulsing"]
+- !private ["Ps9Equatable", "startPulse"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "blue"]
+- !private ["Ps8Hashable", "box"]
+- !private ["Ps8Hashable", "box2"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "radarPulsing"]
+- !private ["Ps8Hashable", "red"]
+- !private ["Ps8Hashable", "regularPulsing"]
+- !private ["Ps8Hashable", "startPulse"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "blue"]
+- !private ["PSo8NSCoding", "box"]
+- !private ["PSo8NSCoding", "box2"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "red"]
+- !private ["PSo8NSCoding", "startPulse"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "blue"]
+- !private ["PSo9NSCopying", "red"]
+- !private ["PSo26NSExtensionRequestHandling", "box"]
+- !private ["PSo26NSExtensionRequestHandling", "box2"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "PulseView"]
+- !private ["CSo8NSObject", "blue"]
+- ["CSo8NSObject", "box"]
+- ["CSo8NSObject", "box2"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "red"]
+- !private ["CSo8NSObject", "startPulse"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "blue"]
+- !private ["PSo16NSObjectProtocol", "box"]
+- !private ["PSo16NSObjectProtocol", "box2"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "red"]
+- !private ["PSo16NSObjectProtocol", "startPulse"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "blue"]
+- !private ["PSo14NSSecureCoding", "red"]
+- !private ["C5pulse9PulseView", "startPulse"]
+- !private ["OC5pulse9PulseView22PulseViewAnimationType", "radarPulsing"]
+- !private ["OC5pulse9PulseView22PulseViewAnimationType", "regularPulsing"]
+- !private ["Ps16RawRepresentable", "radarPulsing"]
+- !private ["Ps16RawRepresentable", "regularPulsing"]
+- !private ["PSo29UIAccessibilityIdentification", "startPulse"]
+- !private ["PSo12UIAppearance", "startPulse"]
+- !private ["PSo21UIAppearanceContainer", "box"]
+- !private ["PSo21UIAppearanceContainer", "box2"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "startPulse"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "blue"]
+- !private ["CSo7UIColor", "red"]
+- !private ["PSo18UIContentContainer", "box"]
+- !private ["PSo18UIContentContainer", "box2"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "startPulse"]
+- !private ["PSo13UIDynamicItem", "startPulse"]
+- !private ["PSo18UIFocusEnvironment", "box"]
+- !private ["PSo18UIFocusEnvironment", "box2"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "startPulse"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "startPulse"]
+- ["CSo11UIResponder", "PulseView"]
+- ["CSo11UIResponder", "box"]
+- ["CSo11UIResponder", "box2"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "startPulse"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "box"]
+- !private ["PSo30UIResponderStandardEditActions", "box2"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "startPulse"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "box"]
+- !private ["PSo16UIStateRestoring", "box2"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "box"]
+- !private ["PSo18UITraitEnvironment", "box2"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "startPulse"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "startPulse"]
+- ["CSo16UIViewController", "PulseView"]
+- ["CSo16UIViewController", "box"]
+- ["CSo16UIViewController", "box2"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C5pulse14ViewController", "PulseView"]
+- ["C5pulse14ViewController", "box"]
+- ["C5pulse14ViewController", "box2"]
+- ["C5pulse14ViewController", "deinit"]
+- ["C5pulse14ViewController", "init"]
+- ["C5pulse14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "startPulse"]
+- !private ["Ps26_ExpressibleByColorLiteral", "blue"]
+- !private ["Ps26_ExpressibleByColorLiteral", "red"]
+- !private ["Ps9_Hashable", "blue"]
+- !private ["Ps9_Hashable", "box"]
+- !private ["Ps9_Hashable", "box2"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "radarPulsing"]
+- !private ["Ps9_Hashable", "red"]
+- !private ["Ps9_Hashable", "regularPulsing"]
+- !private ["Ps9_Hashable", "startPulse"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "C5pulse9PulseView"
+- !private "OC5pulse9PulseView22PulseViewAnimationType"
+- !private "Ps16RawRepresentable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C5pulse14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "11142dba31d48a6b276ec4cc43e137e8"
