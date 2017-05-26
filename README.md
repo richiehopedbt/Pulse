@@ -12,12 +12,14 @@ To add it to your project simply copy the pulse.swift file to your project, crea
 
 Included in this repository is an example app that shows the two variants of the pulse.
 
-to animate the pulse simply use this code. If you are wanting this pulse to happen every time the particular ViewController is seen you will need to put this code in 'ViewWillAppear' and not 'ViewDidLoad':
+to animate the pulse simply use this code. If you are wanting this pulse to happen every time the particular ViewController is seen you will need to put this code in `ViewWillAppear` and not `ViewDidLoad`:
 
 red circle:
+```Objective-C
 `viewToPulse.startPulse(with: .red, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)`
-
+```
 blue circle:
+```Objective-C
 ` viewToPulse.startPulse(with: .blue, scaleFrom: 1.0, to: 1.5, frequency: 0.5, opacity: 0.1, animation: .regularPulsing)`
-
+```
 ![Chat Preview](https://github.com/richiehopedbt/Pulse/blob/Beta/pulse.gif) 
