@@ -16,10 +16,10 @@ to animate the pulse simply use this code. If you are wanting this pulse to happ
 
 red circle:
 ```Objective-C
-`viewToPulse.startPulse(with: .red, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)`
+viewToPulse.startPulse(with: .red, scaleFrom: 1.0, to: 2.0, frequency: 1.0, opacity: 0.5, animation: .radarPulsing)
 ```
 blue circle:
 ```Objective-C
-` viewToPulse.startPulse(with: .blue, scaleFrom: 1.0, to: 1.5, frequency: 0.5, opacity: 0.1, animation: .regularPulsing)`
+viewToPulse.startPulse(with: .blue, scaleFrom: 1.0, to: 1.5, frequency: 0.5, opacity: 0.1, animation: .regularPulsing)
 ```
 ![Chat Preview](https://github.com/richiehopedbt/Pulse/blob/Beta/pulse.gif) 
